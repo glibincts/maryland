@@ -11,23 +11,63 @@ body{
     background-attachment: fixed;   
     background-position: center;
     background-repeat: no-repeat;
-    /* filter: blur(8px); */
 }
 
-header{
+.container{
+    min-width: 100% !important;
+    position: relative;
+}
+
+.BrandName{
     text-align: center;
-    margin-top: 3%;
-    font-size: 40px;
-    color: rgb(236, 241, 241);
-}
-.navbar{
-    list-style-type: none;
-    margin-top: 3%;
-    width: 100%;
-    text-align: right;
-    color: white;
-}
-.navbar li{
-    width: 25%;
+    margin-top: 20px;
 }
 
+h2{
+    text-decoration:solid !important;
+    font-weight: 800 !important;
+}
+
+.navbar li{
+    list-style: none;
+    background-image: linear-gradient(rgb(0, 255, 34), yellow);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+a{
+    color: rgb(182, 26, 26) !important;
+}
+
+
+.google{
+    background-color: aliceblue;
+    min-height: 10%;
+    float: left;
+    width: inherit;
+} 
+
+.location{
+    padding-top: 20px;
+}
+
+.iframe{
+    width: 60%;
+    float: left;
+}
+
+.location_row{
+    /* padding-top: 10% !important; */
+    text-align: center;
+    margin-top: 5% !important;
+}
+
+.loc_desc{
+    margin: 0;
+    /* position: absolute !important; */
+     margin: auto;
+     padding-top: 5%;
+     /* -ms-transform: translateY(-50%);
+     transform: translateY(-50%); */ 
+     text-align: center;
+}
